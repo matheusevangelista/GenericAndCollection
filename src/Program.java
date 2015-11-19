@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 
 
 public class Program {
@@ -22,5 +23,27 @@ public class Program {
 		for(View v : myArray){
 			v.print();
 		}
+		
+		//HashSet
+		HashSet<View> set = new HashSet<View>();
+		set.add(intBox);
+		set.add(doubleBox);
+		set.add(intBox);
+		set.add(doubleBox);
+		set.add(intBox);
+		set.add(doubleBox);
+		set.add(intBox);
+		set.add(doubleBox);
+		set.add(intBox);
+		set.add(doubleBox);
+		set.add(intBox);
+		set.add(doubleBox);
+		
+		System.out.println("HashSet");
+		for(View v: set){
+			v.print();
+		}
+		
+		
 	}
 }
